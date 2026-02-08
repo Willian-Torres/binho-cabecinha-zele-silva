@@ -1,0 +1,93 @@
+
+.nomes {
+  color: antiquewhite;
+  margin: 5px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+h2 {
+    font-size: 14px;
+    font-family: cursive;
+}
+
+.nomes h1 {
+    font-size: 38px;
+  margin: 2px 0;
+  line-height: 1.1;
+}
+.titulo {
+    color: antiquewhite;
+;
+}
+
+#cronometro {
+font-family: cursive;
+  font-size: 14px;
+  font-weight: bold ;
+  text-align: center;
+}
+
+img {
+  position: absolute;
+  width: 180px;
+  height: 220px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.1) rotate(0deg);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
+  z-index: 10;
+}
+
+
+.img1 {
+    top: 50px;
+    left: 50px;
+    transform: rotate(15deg);
+    
+    
+}
+.img2 {
+    top: 130px;
+    left: 300px;
+    transform: rotate(-10deg);
+}
+
+.img3 {
+    top: 320px;
+    left: 50px;
+    transform: rotate(11deg);
+}
+
+.img4 {
+    top: 450px;
+    left: 275px;
+    transform: rotate(-7deg);
+}
+
+.img5 {
+    top: 100px;
+    right: 50px;
+    transform: rotate(-7deg);
+}
+.img6 {
+    top: 80px;
+    right: 300px;
+    transform: rotate(7deg);
+}
+.img7 {
+    top: 480px;
+    right: 50px;
+    transform: rotate(-7deg);
+}
+.img8 {
+    top: 400px;
+    right: 275px;
+    transform: rotate(7deg);
+}
+
